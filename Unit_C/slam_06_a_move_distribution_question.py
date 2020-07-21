@@ -5,10 +5,8 @@ from pylab import plot, show, ylim
 from distribution import *
 
 def move(distribution, delta):
-    """Returns a Distribution that has been moved (x-axis) by the amount of
-       delta."""
 
-    # --->>> Insert your code here.
+    distribution.offset += delta
     
     return distribution  # Replace this by your own result.
 
